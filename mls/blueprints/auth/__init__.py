@@ -1,0 +1,1 @@
+from mls.blueprints.auth.views import blueprint
