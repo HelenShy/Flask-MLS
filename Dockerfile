@@ -1,6 +1,9 @@
 FROM python:3.5-alpine
 MAINTAINER Helen <le0nana0888@gmail.com>
 
+RUN apk update && \
+    apk add build-base postgresql-dev
+
 ENV INSTALL_PATH /mls
 RUN mkdir -p $INSTALL_PATH
 

@@ -1,1 +1,2 @@
-from mls.blueprints.auth.views import blueprint
+from mls.blueprints.auth.resources import auth_blueprint
+
